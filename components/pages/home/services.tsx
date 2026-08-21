@@ -111,7 +111,7 @@ export function OurServices() {
           </div>
 
           {/* Grid */}
-          <div className="grid gap-5 grid-cols-[repeat(auto-fit,minmax(15rem,1fr))]">
+          <div className="grid gap-5 grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
             {gridData.map((item, i) => (
               <GridItem
                 key={i}
