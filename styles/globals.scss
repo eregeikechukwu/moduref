@@ -32,6 +32,10 @@
   --font-fifties: var(--font-vvds-fifties);
 }
 
+html {
+  font-size: 87.55%; //14px
+}
+
 // @media (prefers-color-scheme: dark) {
 //   :root {
 //     --background: #0a0a0a;
