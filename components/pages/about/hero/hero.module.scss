@@ -1,0 +1,21 @@
+@use "../../../../styles//scss/abstracts/mixins.scss" as *;
+
+.hero {
+  background:
+    linear-gradient(180deg, rgba(0, 44, 0, 0.75) 0%, rgba(0, 44, 0, 0.75) 100%),
+    url("/img/about_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-inline: var(--padding-x);
+  padding-block: 4.5rem;
+
+  @include center-content;
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+  }
+}

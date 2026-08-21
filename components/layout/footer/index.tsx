@@ -1,31 +1,7 @@
 import { Icon, iconMap } from "@/components/icons/iconsax";
 import { FooterLogo } from "@/components/shared/logo";
 import Link from "next/link";
-
-const navLinks = [
-  { name: "Home", link: "/" },
-  { name: "About us", link: "/about" },
-  { name: "Services", link: "/services" },
-  { name: "Contact", link: "/contact" },
-];
-
-const contactLinks = [
-  {
-    label: "info@moduref.com",
-    link: "mailto:info@moduref.com",
-    icon: "smsTracking",
-  },
-  {
-    label: "sales@moduref.com",
-    link: "mailto:sales@moduref.com",
-    icon: "smsTracking",
-  },
-  {
-    label: "8 The Green, STE   B Dover, DE, 19901, United States",
-    link: "",
-    icon: "location",
-  },
-];
+import { contactLinks, navLinks } from "./utils";
 
 export function Footer() {
   return (

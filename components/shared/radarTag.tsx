@@ -16,7 +16,7 @@ export function RadarTag({
     >
       <span className="h-2.25 w-2.25 bg-(--color-primary-500) rounded-full animate-pulse" />
       <p
-        className={`leading-[1.67]  text-[0.72rem] uppercase font-bold mt-0.5 ${variantMap[variant].text}`}
+        className={`leading-[1.67]  text-[0.72rem] uppercase  mt-0.5 ${variantMap[variant].text}`}
       >
         {children}
       </p>
