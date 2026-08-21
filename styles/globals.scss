@@ -1,0 +1,40 @@
+@use "tailwindcss" as *;
+
+@use "scss/abstracts/variables.scss" as *;
+@use "scss/abstracts/functions.scss" as *;
+@use "scss/abstracts/mixins.scss" as *;
+@use "scss/abstracts/animations" as *;
+
+@use "scss/base/main" as *;
+@use "scss/base/typography.scss" as *;
+@use "scss/base/reusables.scss" as *;
+
+@use "scss/utilities/utilities.scss" as *;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-primary: #64c600;
+  --color-primary-500: #92d74d;
+  --color-primary-400: #c1e899;
+  --color-dark-green: #004d0b;
+  --color-paragraph: #002c00;
+  --color-gray: #eff9e5;
+  --color-border: #e5eae5;
+  --padding-x: 10.31rem;
+  --padding-y: 6rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-body: var(--font-inter);
+  --font-fifties: var(--font-vvds-fifties);
+}
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --background: #0a0a0a;
+//     --foreground: #ededed;
+//   }
+// }

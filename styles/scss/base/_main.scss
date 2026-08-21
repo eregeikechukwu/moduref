@@ -1,0 +1,50 @@
+body {
+  background: var(--background);
+  font-family: var(--font-inter);
+  color: var(--color-paragraph);
+  position: relative;
+  margin: 0 auto;
+  overflow-x: hidden !important;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-vvds-fifties);
+    color: var(--color-paragraph);
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.75;
+  }
+
+  a {
+    text-decoration: none;
+    //   transition: all 0.3s ease-in-out;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  section {
+    width: 100vw;
+  }
+}

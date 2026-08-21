@@ -1,0 +1,13 @@
+@use "../../../../styles/scss/abstracts/mixins.scss" as *;
+@use "../../../../styles/scss/base/reusables.scss" as *;
+
+.hero {
+  background:
+    linear-gradient(180deg, rgba(0, 44, 0, 0.75) 0%, rgba(0, 44, 0, 0.75) 100%),
+    url("/img/home_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @extend .section;
+}

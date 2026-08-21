@@ -1,0 +1,10 @@
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin section {
+  margin-inline: auto;
+  width: 100%;
+}
